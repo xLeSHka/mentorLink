@@ -6,9 +6,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/app/httpError"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/models"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/pkg/jwt"
+	"github.com/xLeSHka/mentorLink/internal/app/httpError"
+	"github.com/xLeSHka/mentorLink/internal/models"
+	"github.com/xLeSHka/mentorLink/internal/transport/http/pkg/jwt"
 	"log"
 	"net/http"
 )

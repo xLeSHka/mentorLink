@@ -2,11 +2,11 @@ package group
 
 import (
 	"context"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/models"
+	"github.com/xLeSHka/mentorLink/internal/models"
 	"net/http"
 
 	"github.com/google/uuid"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/app/httpError"
+	"github.com/xLeSHka/mentorLink/internal/app/httpError"
 )
 
 func (r *GroupRepository) UpdateRole(ctx context.Context, groupID, userID uuid.UUID, role string) error {

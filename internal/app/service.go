@@ -1,9 +1,9 @@
 package app
 
 import (
-	groupService "gitlab.prodcontest.ru/team-14/lotti/internal/service/group"
-	mentorService "gitlab.prodcontest.ru/team-14/lotti/internal/service/mentor"
-	userService "gitlab.prodcontest.ru/team-14/lotti/internal/service/user"
+	groupService "github.com/xLeSHka/mentorLink/internal/service/group"
+	mentorService "github.com/xLeSHka/mentorLink/internal/service/mentor"
+	userService "github.com/xLeSHka/mentorLink/internal/service/user"
 
 	"go.uber.org/fx"
 )

@@ -1,7 +1,7 @@
 package group
 
 import (
-	"gitlab.prodcontest.ru/team-14/lotti/internal/repository"
+	"github.com/xLeSHka/mentorLink/internal/repository"
 	"gorm.io/gorm"
 )
 

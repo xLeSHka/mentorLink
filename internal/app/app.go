@@ -1,11 +1,11 @@
 package app
 
 import (
-	"gitlab.prodcontest.ru/team-14/lotti/internal/connetions/db"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/connetions/minio"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http"
-	httpHandlers "gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/handler"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/pkg/jwt"
+	"github.com/xLeSHka/mentorLink/internal/connetions/db"
+	"github.com/xLeSHka/mentorLink/internal/connetions/minio"
+	"github.com/xLeSHka/mentorLink/internal/transport/http"
+	httpHandlers "github.com/xLeSHka/mentorLink/internal/transport/http/handler"
+	"github.com/xLeSHka/mentorLink/internal/transport/http/pkg/jwt"
 
 	"go.uber.org/fx"
 )

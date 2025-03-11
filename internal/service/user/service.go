@@ -1,10 +1,10 @@
 package userService
 
 import (
-	"gitlab.prodcontest.ru/team-14/lotti/internal/pkg/config"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/repository"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/service"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/pkg/jwt"
+	"github.com/xLeSHka/mentorLink/internal/pkg/config"
+	"github.com/xLeSHka/mentorLink/internal/repository"
+	"github.com/xLeSHka/mentorLink/internal/service"
+	"github.com/xLeSHka/mentorLink/internal/transport/http/pkg/jwt"
 	"time"
 
 	"go.uber.org/fx"

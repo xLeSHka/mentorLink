@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/app/httpError"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/models"
+	"github.com/xLeSHka/mentorLink/internal/app/httpError"
+	"github.com/xLeSHka/mentorLink/internal/models"
 )
 
 func (s *GroupsService) UploadImage(ctx context.Context, file *models.File, groupID, personID uuid.UUID) (string, *httpError.HTTPError) {

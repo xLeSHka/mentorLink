@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/hokaccha/go-prettyjson"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/app"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/connetions/db"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/pkg/config"
+	"github.com/xLeSHka/mentorLink/internal/app"
+	"github.com/xLeSHka/mentorLink/internal/connetions/db"
+	"github.com/xLeSHka/mentorLink/internal/pkg/config"
 	"go.uber.org/fx"
 )
 

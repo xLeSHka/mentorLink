@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/app/httpError"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/pkg/jwt"
+	"github.com/xLeSHka/mentorLink/internal/app/httpError"
+	"github.com/xLeSHka/mentorLink/internal/transport/http/pkg/jwt"
 )
 
 // @Summary Получить список моих запросов

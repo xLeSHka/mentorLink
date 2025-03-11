@@ -3,7 +3,7 @@ package repositoryMinio
 import (
 	"context"
 	"github.com/minio/minio-go/v7"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/models"
+	"github.com/xLeSHka/mentorLink/internal/models"
 	"strings"
 	"time"
 )

@@ -1,4 +1,4 @@
-module gitlab.prodcontest.ru/team-14/lotti
+module github.com/xLeSHka/mentorLink
 
 go 1.23.6
 

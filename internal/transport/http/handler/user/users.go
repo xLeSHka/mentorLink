@@ -1,11 +1,11 @@
 package usersRoute
 
 import (
-	"gitlab.prodcontest.ru/team-14/lotti/internal/app/Validators"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/repository"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/service"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/handler/ApiRouters"
-	"gitlab.prodcontest.ru/team-14/lotti/internal/transport/http/handler/ws"
+	"github.com/xLeSHka/mentorLink/internal/app/Validators"
+	"github.com/xLeSHka/mentorLink/internal/repository"
+	"github.com/xLeSHka/mentorLink/internal/service"
+	"github.com/xLeSHka/mentorLink/internal/transport/http/handler/ApiRouters"
+	"github.com/xLeSHka/mentorLink/internal/transport/http/handler/ws"
 	"go.uber.org/fx"
 )
 
